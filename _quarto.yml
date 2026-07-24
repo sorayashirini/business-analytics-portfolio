@@ -1,0 +1,66 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "projects/**/*.qmd"
+    - "!glassdoor_bert_sentiment.ipynb"
+
+website:
+  title: "Soraya Shirini"
+  google-analytics: "G-VN4JCSV3RZ"
+  favicon: images/favicon.ico
+  navbar:
+    logo: images/favicon.ico
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: international-experience.qmd
+        text: International Experience
+      - text: Projects
+        menu:
+            - href: projects/index.qmd
+              text: All Projects
+            - href: projects/fraud-analysis-project.qmd
+              text: Fraud Analysis
+            - href: projects/nlp-sentiment-project.qmd
+              text: NLP Sentiment Analysis
+            - href: projects/clinic-no-show-analysis.qmd
+              text: SQL No-Show Analysis
+      - href: media.qmd
+        text: Media
+      - href: podcasts.qmd
+        text: Podcasts
+      - href: reflection.qmd
+        text: Reflection
+      - href: contact.qmd
+        text: Contact
+      - href: soraya-shirini-cv.pdf
+        text: CV
+        target: _blank
+      - href: https://github.com/sorayashirini/business-analytics-portfolio
+        text: GitHub
+        target: _blank
+
+  page-footer:
+    center: |
+      © 2026 Soraya Shirini  
+      Built with Quarto
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    highlight-style: github
+    toc: false
+    page-layout: full
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+execute:
+  echo: true
+  enabled: true

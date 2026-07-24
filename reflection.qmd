@@ -1,0 +1,91 @@
+---
+title: ""
+---
+
+# Reflection
+
+This portfolio reflects my transition from a consulting and project management background into a more analytics-focused role.  
+
+It demonstrates not only the development of technical skills, but also my ability to apply data-driven thinking to real business problems.
+
+
+<div class="cards-container">
+
+<div class="card">
+
+## Learning Journey
+
+Throughout this module, I developed practical skills in:
+
+- Python for data analysis  
+- exploratory data analysis and statistical thinking  
+- machine learning fundamentals  
+
+More importantly, I learned how to **connect technical analysis with business context**
+
+- In the fraud detection project, I explored how data can support risk identification and decision-making  
+- In the NLP project, I worked with unstructured text data and compared AI approaches, gaining insight into model strengths and limitations  
+
+This shift from *technical execution* to *business-oriented analysis* was a key part of my development.
+
+This transition required a shift in mindset, from focusing on delivery and execution to thinking critically about data, interpretation, and decision-making.
+
+</div>
+
+<div class="card">
+
+## Challenges and Problem Solving
+
+One of the main challenges was working with machine learning models such as BERT.
+
+- Initially, I found it difficult to understand how text is processed and how models can be applied in practice  
+- I addressed this by breaking down the workflow step-by-step and focusing on core concepts rather than complexity  
+
+Another challenge was handling performance and technical constraints when working with large models.
+
+- I simplified the implementation  
+- Reduced dataset size where necessary  
+- Focused on meaningful outputs rather than computational complexity  
+
+I also faced challenges in building the portfolio using Quarto.
+
+- Learning how to structure files, manage YAML configuration, and debug rendering issues was an important part of the process  
+
+These challenges helped me become more confident in both technical implementation and problem-solving.
+
+Before this module, I viewed analytics mainly as reporting and data processing. This experience changed my perspective, showing that analytics is fundamentally about interpreting data to support decisions.
+
+</div>
+
+<div class="card">
+
+## Key Insights
+
+This experience highlighted several important lessons:
+
+- Technical accuracy alone is not enough — **clear communication of results is equally important**  
+- Simpler, well-structured models can often be more effective than complex approaches  
+- Understanding the business problem is critical when selecting analytical methods  
+- Model performance must always be interpreted in context, not just reported  
+- My consulting background helped me approach analytics problems in a structured and business-oriented way  
+
+</div>
+
+<div class="card">
+
+## Future Development
+
+Going forward, I plan to strengthen my skills in:
+
+- advanced machine learning techniques  
+- feature engineering and model evaluation  
+- data visualisation and dashboard development  
+- applying analytics to real-world business problems  
+
+While I have built a strong foundation, I recognise that further experience is needed to apply advanced models at scale and in real-world production environments.
+
+This portfolio represents an important step in developing a strong foundation for a career in data analytics.
+
+</div>
+
+</div>

@@ -1,0 +1,146 @@
+---
+title: ""
+---
+
+# Media
+
+This page presents selected learning resources that supported my development in Python-based data analytics.
+
+Rather than listing general tutorials, these resources were chosen based on their practical, hands-on approach and their relevance to real-world data analysis workflows.
+
+These resources played a key role in helping me build foundational skills in data cleaning, analysis, and visualisation, which were directly applied in my project work.
+
+<div class="media-cards">
+
+<div class="media-card">
+
+## Data Analysis with Python – freeCodeCamp
+
+<iframe width="100%" height="315"
+src="https://www.youtube.com/embed/r-uOLxNrNk8"
+title="Data Analysis with Python"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+**Duration:** ~4 hours  
+
+A comprehensive course covering data loading, cleaning, and visualisation using pandas and NumPy.
+
+**What I gained:**  
+
+This resource helped me understand how to structure data analysis workflows and apply pandas functions to real datasets.
+
+</div>
+
+<div class="media-card">
+
+## Python Pandas Tutorial Series – Corey Schafer
+
+<iframe width="100%" height="315"
+src="https://www.youtube.com/embed/vmEHCJofslg"
+title="Pandas Tutorial Series"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+**Duration:** ~5 hours (playlist)  
+
+A structured, step-by-step series covering pandas fundamentals, filtering, grouping, handling missing data, time-series analysis, and working with files such as CSV and SQL.
+
+**What I gained:** 
+
+This resource helped me build confidence in using pandas for data manipulation.
+
+</div>
+
+<div class="media-card">
+
+## Complete Pandas Data Science Tutorial – Rob Mulla
+
+<iframe width="100%" height="315"
+src="https://www.youtube.com/embed/2uvysYbKdjM"
+title="Pandas Data Science Tutorial"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+**Duration:** ~1 hour  
+
+A fast-paced, practical tutorial covering data import, filtering, grouping, and cleaning, with modern pandas techniques and real-world usage examples.
+
+**What I gained:** 
+
+This resource improved my understanding of data cleaning and transformation.
+
+</div>
+
+<div class="media-card">
+
+## Pandas Full Course – Derek Banas
+
+<iframe width="100%" height="315"
+src="https://www.youtube.com/embed/2pWv7GOvuf0"
+title="Pandas Full Course"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+**Duration:** ~1 hour 40 minutes  
+
+Covers DataFrame operations, conditional selection, statistical analysis, data cleaning, and visualisation using pandas and Seaborn.
+
+**What I gained:** 
+
+This resource introduced practical approaches to exploratory data analysis.
+
+</div>
+
+<div class="media-card">
+
+## Real-World Data Analysis (Olympics Dataset) – Keith Galli
+
+<iframe width="100%" height="315"
+src="https://www.youtube.com/embed/eMOA1pPVUc4"
+title="Olympics Data Analysis"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+**Duration:** ~2–3 hours  
+
+A project-based tutorial demonstrating end-to-end data analysis using pandas and visualisation tools, including handling real-world messy data.
+
+**What I gained:** 
+
+This resource helped me apply analysis techniques in project-based scenarios.
+
+</div>
+
+<div class="media-card">
+
+## Data Analyst Portfolio Project – Alex The Analyst
+
+<iframe width="100%" height="315"
+src="https://www.youtube.com/embed/qfyynHBFOsM"
+title="Data Analyst Portfolio Project"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+**Duration:** ~1 hour  
+
+A practical, project-based tutorial demonstrating a full data analysis workflow, including data cleaning, exploration, and visualisation. The video focuses on building a real portfolio project using SQL and Python, making it highly relevant for developing applied analytics skills.
+
+**What I gained:**  
+
+This resource helped me understand how to structure portfolio-ready projects and present data analysis work in a clear and practical way.
+
+</div>
+
+</div>
+
+---
+
+These resources were instrumental in building my technical foundation and bridging the gap between theoretical knowledge and practical application.
+They directly supported the development of my project work and helped me transition into a more hands-on, applied approach to analytics.

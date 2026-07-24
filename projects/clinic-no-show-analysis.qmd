@@ -1,0 +1,316 @@
+---
+title: "Clinic Appointment No-Show Analysis"
+description: "SQL-based healthcare operations analysis using PostgreSQL and Python to identify factors associated with missed appointments."
+author: "Soraya Shirini"
+date: "2026-03-15"
+image: "images/healthcare.jpg"
+categories: ["SQL", "PostgreSQL", "Python", "Healthcare Analytics"]
+toc: false
+jupyter: quarto-base
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Overview
+
+This project examines patient appointment data to understand patterns behind missed clinic appointments.
+
+The analysis combines SQL-based data cleaning, KPI calculation, segmentation, and business interpretation to identify which factors are most strongly associated with no-shows.
+
+## Business Problem
+
+Missed appointments create operational inefficiency in healthcare settings. They waste clinical capacity, increase waiting times, and reduce service effectiveness.
+
+The goal of this project was to identify key factors linked to appointment no-shows and generate practical recommendations that could help clinics improve attendance.
+
+## Dataset
+
+The dataset contains over 110,000 medical appointments. The target variable is `no_show`:
+
+- 1 = missed appointment
+- 0 = attended appointment
+
+The dataset includes appointment timing, patient demographics, neighbourhood, chronic condition indicators, SMS reminder status, and attendance outcome.
+
+Initial data checks showed that the dataset required cleaning before analysis, including removal of one invalid age value and records with impossible waiting times.
+
+## Analytical Approach
+
+The project followed a structured workflow:
+
+1. Data loading from PostgreSQL
+2. Data cleaning and transformation
+3. KPI calculation
+4. Segmentation analysis
+5. Interaction analysis
+6. Business interpretation
+
+## Project Workflow
+
+The following workflow summarises the end-to-end process used in this project.
+
+<div class="workflow-row">
+  <div class="workflow-step">Raw Data</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">Cleaning & Transformation</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">SQL Analysis</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">Segmentation</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">Interaction Analysis</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">Business Insights</div>
+</div>
+
+## Key Findings
+
+The overall no-show rate was approximately 20%, meaning around 1 in 5 appointments were missed.
+
+Waiting time showed a strong relationship with attendance. Patients with short waiting times had much lower no-show rates than those waiting longer.
+
+Age was also important. Patients aged 18–30 showed the highest no-show rates, while patients over 50 had lower rates.
+
+Gender did not show a meaningful difference in no-show behaviour.
+
+::: {.callout-note}
+## Key Insight
+
+The highest-risk group was younger patients with longer waiting times and no SMS reminder.
+
+This suggests that clinics should focus on targeted intervention rather than applying the same reminder strategy to all patients.
+:::
+
+## Business Interpretation
+
+The findings suggest that no-shows are influenced more by operational and behavioural factors than by simple demographic characteristics such as gender.
+
+The strongest opportunities for improvement are reducing waiting time and focusing reminder efforts on higher-risk patient groups.
+
+## Recommendations
+
+- Reduce waiting time where possible
+- Prioritise reminder strategies for younger patients
+- Target high-risk segments rather than treating all patients the same
+- Monitor waiting-time driven attendance risk as a core KPI
+
+## Technical Stack
+
+- PostgreSQL
+- SQL
+- Python
+- pandas
+- SQLAlchemy
+- Tableau
+
+## Technical Implementation (Python + SQL)
+
+The following code snippets demonstrate how PostgreSQL queries were executed through Python to support a reproducible SQL workflow.
+
+### Database Connection
+
+```{python}
+#| code-fold: true
+
+import os
+import pandas as pd
+from sqlalchemy import create_engine
+
+DB_USER = "postgres"
+DB_PASSWORD = os.environ.get("DB_PASSWORD", "your_password_here")
+DB_HOST = "localhost"
+DB_PORT = "5432"
+DB_NAME = "clinicscheddb"
+
+engine = create_engine(
+    f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+)
+```
+
+### Overall No-Show Rate
+
+```{python}
+#| code-fold: true
+
+query = """
+SELECT 
+  COUNT(*) AS total_appointments,
+  SUM(no_show) AS total_no_shows,
+  ROUND(AVG(no_show), 3) AS no_show_rate
+FROM appointments_cleaned;
+"""
+
+pd.read_sql(query, engine)
+```
+
+This query shows the overall attendance problem. The result showed a no-show rate of about **20%**.
+
+### No-Show Rate by Waiting Group
+
+```{python}
+#| code-fold: true
+
+query = """
+SELECT 
+  CASE 
+    WHEN waiting_days <= 10 THEN '0-10 days'
+    WHEN waiting_days <= 30 THEN '10-30 days'
+    WHEN waiting_days <= 60 THEN '30-60 days'
+    ELSE '60+ days'
+  END AS waiting_group,
+  COUNT(*) AS total_appointments,
+  ROUND(AVG(no_show), 3) AS no_show_rate
+FROM appointments_cleaned
+GROUP BY waiting_group
+ORDER BY waiting_group;
+"""
+
+pd.read_sql(query, engine)
+```
+
+Patients waiting 0–10 days had a much lower no-show rate than patients waiting longer, showing that waiting time is an important driver of missed appointments.
+
+### No-Show Rate by Age Group
+
+```{python}
+#| code-fold: true
+
+query = """
+SELECT 
+  CASE 
+    WHEN age <= 18 THEN '0-18'
+    WHEN age <= 30 THEN '18-30'
+    WHEN age <= 50 THEN '31-50'
+    WHEN age <= 70 THEN '50-70'
+    ELSE '70+'
+  END AS age_group,
+  COUNT(*) AS total_appointments,
+  ROUND(AVG(no_show), 3) AS no_show_rate
+FROM appointments_cleaned
+GROUP BY age_group
+ORDER BY age_group;
+"""
+
+pd.read_sql(query, engine)
+```
+
+The results showed that patients aged 18–30 had the highest no-show rate, while older groups had lower attendance risk.
+
+### No-Show Rate by Gender
+
+```{python}
+#| code-fold: true
+
+query = """
+SELECT 
+  gender,
+  COUNT(*) AS total_appointments,
+  ROUND(AVG(no_show), 3) AS no_show_rate
+FROM appointments_cleaned
+GROUP BY gender;
+"""
+
+pd.read_sql(query, engine)
+```
+
+The difference between male and female patients was minimal, suggesting that gender is not a meaningful predictor of no-show behaviour in this dataset.
+
+### Higher-Risk Segment Analysis
+
+```{python}
+#| code-fold: true
+
+query = """
+SELECT 
+  CASE 
+    WHEN age < 30 THEN 'Under 30'
+    WHEN age < 50 THEN '30-49'
+    ELSE '50+'
+  END AS age_group,
+  CASE 
+    WHEN waiting_days <= 10 THEN '0-10'
+    WHEN waiting_days <= 30 THEN '10-30'
+    ELSE '30+'
+  END AS waiting_group,
+  sms_received,
+  COUNT(*) AS total_appointments,
+  ROUND(AVG(no_show), 3) AS no_show_rate
+FROM appointments_cleaned
+GROUP BY age_group, waiting_group, sms_received
+ORDER BY no_show_rate DESC
+LIMIT 10;
+"""
+
+pd.read_sql(query, engine)
+```
+
+This analysis identified the highest-risk segment as **younger patients with long waiting times and no SMS reminder**, with a no-show rate of around **45%**.
+
+## Tableau Dashboard
+
+A simple Tableau dashboard was created to support visual exploration of the main findings, including:
+
+- overall no-show KPI
+- no-show rate by waiting group
+- no-show rate by age group
+- no-show rate by SMS reminder
+
+<div class='tableauPlaceholder' id='viz1776423441146' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt='Dashboard 1' src='https://public.tableau.com/static/images/Bo/Book1_17764233163640/Dashboard1/1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='Book1_17764233163640/Dashboard1' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/Bo/Book1_17764233163640/Dashboard1/1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+    <param name='filter' value='publish=yes' />
+  </object>
+</div>
+
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1776423441146');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  if (divElement.offsetWidth > 800) {
+    vizElement.style.width = '100%';
+    vizElement.style.maxWidth = '1000px';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+    vizElement.style.maxHeight = '727px';
+  } else if (divElement.offsetWidth > 500) {
+    vizElement.style.width = '100%';
+    vizElement.style.maxWidth = '1000px';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+    vizElement.style.maxHeight = '727px';
+  } else {
+    vizElement.style.width = '100%';
+    vizElement.style.height = '1127px';
+  }
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+## Business Impact
+
+These findings suggest that clinics can improve attendance by focusing on operational improvements and targeted intervention rather than broad, generic reminder strategies.
+
+For healthcare providers, this means that reducing waiting time and identifying higher-risk patient groups can likely deliver more value than relying on one uniform communication approach.
+
+## Supporting Material
+
+You can explore the dashboard below:
+
+- [View Tableau Dashboard](https://public.tableau.com/views/Book1_17764233163640/Dashboard1)

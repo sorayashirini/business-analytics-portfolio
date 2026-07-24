@@ -1,0 +1,42 @@
+---
+title: ""
+about:
+  template: trestles
+  image: "profile.jpg"
+  image-shape: rounded
+  image-width: 20em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/soraya-s-25166b211/
+    - icon: github
+      text: GitHub
+      href: https://github.com/sorayashirini/business-analytics-portfolio
+    - icon: envelope
+      text: Email
+      href: mailto:soraya.shirini2@mail.dcu.ie
+---
+
+## Data Analytics Portfolio
+
+*Transforming data into actionable insights for business decision-making.*
+
+### Experience
+
+Data analytics professional with 5+ years of consulting and project management experience at Accenture, including 2+ years in a managerial role.
+
+My background includes large-scale digital transformation, KPI reporting, stakeholder management, and cross-functional coordination across international teams. I have worked extensively with Jira, Confluence, Excel, and reporting workflows to support operational visibility and decision-making.
+
+### Technical Focus
+
+My current technical focus includes Python, SQL, Tableau, machine learning, and deep learning, with a growing portfolio of projects that connect business problems with data-driven solutions.
+
+### Portfolio Focus
+
+This portfolio highlights selected work in analytics, NLP, and business-focused problem solving.
+
+<div class="cta-row">
+  <a href="projects/index.qmd" class="cta-button">Explore My Project</a>
+  
+  <a href="soraya-shirini-cv.pdf" target="_blank" class="cta-secondary">View CV</a>
+</div>

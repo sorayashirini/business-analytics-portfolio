@@ -1,0 +1,284 @@
+/* Page background */
+body {
+  background-color: #303030;
+  color: #e5e5e5;   /* 🔥 main light text */
+}
+
+/* Remove Quarto background interference */
+.page-columns,
+#quarto-content,
+main.content {
+  background: transparent;
+}
+
+/* Postcard container */
+.postcard {
+  max-width: 92vw;
+  margin: 60px auto;
+  padding: 3rem 4rem;
+  background-color: #ffffff;
+  border: 1px solid #d8d2ca;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  min-height: 50vh;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Layout inside postcard */
+.postcard-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  width: 100%;
+}
+
+/* Left text */
+.postcard-text {
+  flex: 1 1 50%;
+  max-width: 650px;
+}
+
+/* Right image container */
+.postcard-image-wrap {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Image */
+.postcard-image {
+  width: auto;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+/* Titles (inside white postcard → keep dark) */
+.subtitle-small {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle-large {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: #555;
+  margin-bottom: 1.6rem;
+}
+
+/* Paragraphs (inside white postcard) */
+.postcard-text p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 1.1rem;
+}
+
+/* Icons (inside postcard) */
+.icon-links {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 22px;
+}
+
+.icon-links a {
+  font-size: 1.9rem;
+  color: #222;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.icon-links a:hover {
+  transform: translateY(-2px);
+  opacity: 0.7;
+}
+
+/* Cards container (About page) */
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 2000px;
+  margin: 40px auto;
+}
+
+/* Cards (white → keep dark text) */
+.card {
+  background: #ffffff;
+  border: 1px solid #d8d2ca;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.card p,
+.card li {
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Media cards */
+.media-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.media-card {
+  background: #ffffff;
+  border: 1px solid #d8d2ca;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.media-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.media-card p {
+  line-height: 1.7;
+  color: #333;
+}
+
+.media-card iframe {
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .postcard {
+    padding: 2rem 1.5rem;
+    margin: 20px;
+    min-height: auto;
+  }
+
+  .postcard-layout {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .postcard-text,
+  .postcard-image-wrap {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .postcard-image-wrap {
+    justify-content: center;
+  }
+
+  .subtitle-large {
+    font-size: 2.1rem;
+  }
+
+  .icon-links {
+    gap: 16px;
+    margin-top: 1.8rem;
+  }
+
+  .icon-links a {
+    font-size: 1.7rem;
+  }
+
+  .media-cards {
+    grid-template-columns: 1fr;
+  }
+}
+.card h2,
+.media-card h2 {
+  color: #111;   /* 🔥 force dark text inside white cards */
+}
+
+.cell-output,
+.cell-output-display {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* 🔥 FORCE white code background everywhere */
+pre,
+code,
+.sourceCode,
+div.sourceCode {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Fix full code blocks */
+pre {
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+}
+
+/* Inline code */
+code {
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* 🔥 Quarto cell blocks */
+.cell,
+.cell-output,
+.cell-output-display,
+.cell-output pre {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Jupyter-style outputs */
+div.output,
+div.output pre {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+/* Fix table readability */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+table th {
+  background-color: #1f4e79;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Optional: zebra rows */
+table tr:nth-child(even) {
+  background-color: #f5f5f5;
+}

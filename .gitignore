@@ -1,0 +1,11 @@
+_site/
+.quarto/
+results/
+*.csv
+*.xlsx
+*.ipynb
+*.quarto_ipynb*
+.ipynb_checkpoints/
+.DS_Store
+/.quarto/
+**/*.quarto_ipynb

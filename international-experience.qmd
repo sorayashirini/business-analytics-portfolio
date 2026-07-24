@@ -1,0 +1,139 @@
+---
+title: ""
+---
+
+# International Experience
+
+Working and travelling across different countries has played a key role in shaping my professional development.
+
+These experiences strengthened my ability to adapt, communicate, and operate in complex international environments.
+
+More importantly, they influenced how I approach data and problem solving, by connecting analytical thinking with real-world operational and business contexts.
+
+---
+
+<div class="cards-container">
+
+<div class="card">
+
+## 🇯🇵 Japan (Living & Working)
+
+<a href="images/japan1.jpg" target="_blank">
+  <img src="images/japan1.jpg" alt="Japan hero image" class="hero-image interactive-image" />
+</a>
+
+:::: {.columns}
+::: {.column width="50%"}
+<a href="images/japan2.jpg" target="_blank">
+  <img src="images/japan2.jpg" alt="Japan image 2" class="thumb-image interactive-image" />
+</a>
+:::
+
+::: {.column width="50%"}
+<a href="images/japan3.png" target="_blank">
+  <img src="images/japan3.png" alt="Japan image 3" class="thumb-image interactive-image" />
+</a>
+:::
+::::
+
+Living in Japan for over a decade shaped my approach to structured problem solving and process-driven environments.
+
+This experience helped me develop:
+
+- strong attention to detail  
+- discipline in execution  
+- the ability to work effectively in highly structured systems  
+
+**Key takeaway:**  
+Strong systems, consistency, and disciplined execution are essential for scalable and reliable outcomes.
+
+</div>
+
+<div class="card">
+
+## 🇲🇾 Malaysia (Sony – Factory & Product Development)
+
+<a href="images/malaysia1.jpg" target="_blank">
+  <img src="images/malaysia1.jpg" alt="Malaysia hero image" class="hero-image interactive-image" />
+</a>
+
+:::: {.columns}
+::: {.column width="50%"}
+<a href="images/malaysia2.jpg" target="_blank">
+  <img src="images/malaysia2.jpg" alt="Malaysia image 2" class="thumb-image interactive-image" />
+</a>
+:::
+
+::: {.column width="50%"}
+<a href="images/malaysia3.jpg" target="_blank">
+  <img src="images/malaysia3.jpg" alt="Malaysia image 3" class="thumb-image interactive-image" />
+</a>
+:::
+::::
+
+During my time at Sony, I regularly visited manufacturing sites in Malaysia to support the transition from prototype development to mass production.
+
+This experience exposed me to:
+
+- end-to-end product lifecycle processes  
+- coordination between engineering, manufacturing, and operations  
+- the practical challenges of scaling from development to production  
+
+**Key takeaway:**  
+Data and decisions must align with operational reality, not just technical theory.
+
+</div>
+
+<div class="card">
+
+## 🇦🇺 Australia (Client Delivery – UAT & Go-Live)
+
+<a href="images/australia1.jpg" target="_blank">
+  <img src="images/australia1.jpg" alt="Australia hero image" class="hero-image interactive-image" />
+</a>
+
+:::: {.columns}
+::: {.column width="50%"}
+<a href="images/australia2.jpg" target="_blank">
+  <img src="images/australia2.jpg" alt="Australia image 2" class="thumb-image interactive-image" />
+</a>
+:::
+
+::: {.column width="50%"}
+<a href="images/australia3.jpg" target="_blank">
+  <img src="images/australia3.jpg" alt="Australia image 3" class="thumb-image interactive-image" />
+</a>
+:::
+::::
+
+While working in consulting, I spent several months onsite in Australia supporting clients during UAT and system go-live phases.
+
+This involved:
+
+- working directly with stakeholders in critical delivery stages  
+- coordinating across teams during high-pressure implementation periods  
+- supporting issue resolution and system readiness  
+
+**Key takeaway:**  
+Clear communication, adaptability, and stakeholder coordination are essential in business-critical delivery environments.
+
+</div>
+
+<div class="card">
+
+## Overall Reflection
+
+These international experiences shaped how I approach analytics and problem solving.
+
+They strengthened my ability to:
+
+- understand the context behind data  
+- adapt to different environments and working styles  
+- communicate effectively across teams and stakeholders  
+- connect technical work with real operational and business needs  
+
+These experiences continue to influence how I think about analytics, delivery, and decision-making in global organisations.
+
+</div>
+
+</div>

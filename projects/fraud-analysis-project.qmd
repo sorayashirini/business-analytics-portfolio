@@ -1,0 +1,238 @@
+---
+title: "Fraud Pattern Analysis and Predictive Modeling"
+description: "End-to-end fraud analytics project using exploratory analysis, statistical testing, and predictive modeling."
+author: "Soraya Shirini"
+date: "2025-03-01"
+image: "images/fraud.jpg"
+categories: ["Python", "Statistics", "Machine Learning", "Fraud Detection"]
+toc: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Overview
+
+This project examines fraud patterns in customer transaction data and evaluates whether fraud can be predicted using customer and transaction-related variables.
+
+The analysis combines exploratory data analysis, statistical testing, outlier detection, and predictive modeling to understand which factors are associated with fraud and whether they can support fraud detection.
+
+## Business Problem
+
+Fraud detection is an important part of financial risk management. Organizations need to identify suspicious activity as early as possible to reduce losses and improve prevention strategies.
+
+The goal of this project was to determine whether customer characteristics and transaction-related variables could reliably distinguish fraudulent from non-fraudulent activity.
+
+## Dataset
+
+The dataset contains 500 rows and 23 columns. The target variable is `is_fraud`:
+
+- 1 = fraud
+- 0 = non-fraud
+
+The dataset includes customer, financial, and transaction-related variables such as age, income, credit score, loan amount, transaction amount, device type, and transaction type.
+
+Initial data checks showed no missing values, no duplicates, and a balanced fraud distribution.
+
+## Analytical Approach
+
+The project followed a structured workflow:
+
+1. Data understanding
+2. Data cleaning and preparation
+3. Exploratory data analysis
+4. Outlier detection
+5. Confidence interval analysis
+6. Hypothesis testing
+7. Predictive modeling (Logistic Regression)
+
+## Model Selection Rationale
+
+Logistic Regression was selected as a baseline model due to its interpretability and suitability for binary classification problems. It allows for clear understanding of how input variables influence fraud prediction, which is important in risk-sensitive business contexts.
+
+## Project Workflow
+
+The following workflow summarises the end-to-end analytical process used in this project.
+
+<div class="workflow-row">
+  <div class="workflow-step">Raw Data</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">Cleaning & Preparation</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">EDA & Visualization</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">Statistical Testing</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">Model Training</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">Model Evaluation</div>
+  <div class="workflow-arrow">→</div>
+  <div class="workflow-step">Business Insights</div>
+</div>
+
+## Key Findings
+
+Most variables did not strongly differentiate fraud from non-fraud cases.
+
+Variables such as transaction amount, loan amount, credit score, region, and device type showed weak or no clear relationship with fraud.
+
+The only variable showing a statistically significant difference was personal income, with fraud cases associated with lower income levels.
+
+::: {.callout-note}
+## Key Insight
+
+The analysis showed that traditional demographic and financial variables were not strong predictors of fraud.
+
+This highlights the importance of behavioural patterns and transaction-level data in building effective fraud detection systems.
+:::
+
+## Model Performance
+
+Logistic Regression results:
+
+- Accuracy: 0.61
+- Precision: 0.58
+- Recall: 0.69
+- ROC-AUC: 0.61
+
+These results suggest limited predictive power using the available features.
+
+## Limitations
+
+The model performance is constrained by the dataset size and the type of features available. The dataset primarily includes static attributes, which limits the ability to capture behavioural fraud patterns.
+
+## Business Interpretation
+
+Fraud detection cannot rely only on demographic or financial variables.
+
+More effective approaches should focus on:
+
+- behavioral indicators
+- unusual transaction patterns
+- device and login activity
+
+## Recommendations
+
+- Focus on behavioral fraud signals
+- Improve data collection with richer features
+- Monitor large financial outliers
+- Retrain models regularly
+
+## Technical Stack
+
+- Python
+- pandas, numpy
+- matplotlib, seaborn
+- scikit-learn
+- statistical analysis
+
+## Technical Implementation (Python)
+
+The following code snippets demonstrate how data was loaded, processed, and analysed using Python, with a focus on reproducibility and real-world analytical workflows.
+
+### Data Loading
+
+```{python}
+#| code-fold: true
+
+import pandas as pd
+
+df = pd.read_excel("../fraud_victim_dataset.xlsx")
+df.head()
+```
+
+### Exploratory Data Analysis Example
+
+```{python}
+#| code-fold: true
+#| fig-cap: "Transaction Amount by Fraud Class"
+
+import matplotlib.pyplot as plt
+
+plt.boxplot([
+    df[df["is_fraud"] == 0]["transaction_amount"],
+    df[df["is_fraud"] == 1]["transaction_amount"]
+])
+
+plt.xticks([1, 2], ["Non-Fraud", "Fraud"])
+plt.ylabel("Transaction Amount")
+plt.title("Transaction Amount vs Fraud")
+plt.show()
+```
+
+The boxplot shows that fraud transactions have greater variability and more extreme values, but there is still substantial overlap with non-fraud cases. This suggests that transaction amount alone is not a strong predictor of fraud.
+
+### Predictive Modeling Example
+
+```{python}
+#| code-fold: true
+
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_auc_score
+
+X = df.drop(columns=["is_fraud", "fraud_amount"])
+y = df["is_fraud"]
+
+num_cols = X.select_dtypes(include=["int64", "float64"]).columns
+cat_cols = X.select_dtypes(exclude=["int64", "float64"]).columns
+
+preprocess = ColumnTransformer([
+    ("num", StandardScaler(), num_cols),
+    ("cat", OneHotEncoder(handle_unknown="ignore"), cat_cols)
+])
+
+model = Pipeline([
+    ("prep", preprocess),
+    ("clf", LogisticRegression(max_iter=200, class_weight="balanced"))
+])
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y,
+    test_size=0.25,
+    stratify=y,
+    random_state=42
+)
+
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+y_prob = model.predict_proba(X_test)[:, 1]
+
+results = pd.DataFrame({
+    "Metric": ["Accuracy", "Precision", "Recall", "ROC-AUC"],
+    "Score": [
+        round(accuracy_score(y_test, y_pred), 2),
+        round(precision_score(y_test, y_pred), 2),
+        round(recall_score(y_test, y_pred), 2),
+        round(roc_auc_score(y_test, y_prob), 2)
+    ]
+})
+
+results
+```
+
+The model achieved moderate performance, with stronger recall than precision. This indicates that the model was more effective at identifying fraud cases than avoiding false positives.
+
+In a fraud detection context, higher recall is often preferred, as missing fraudulent transactions can lead to significant financial loss. However, the relatively low precision suggests that many flagged transactions may not actually be fraudulent, which could increase operational costs.
+
+## Business Impact
+
+These findings suggest that organizations should:
+
+- shift from static rule-based systems to behavior-based detection
+- invest in richer transaction-level data
+- continuously retrain models with updated patterns
+
+For organizations, this means that investment in richer behavioural and transaction-level data is likely to deliver more value than relying only on static customer attributes.
+
+## Supporting Material
+
+You can explore the full analysis and presentation below:
+
+- [Download Full Report (PDF)](../fraud-analysis-report.pdf)
+- [Download Presentation (PPT)](../fraud-analysis-presentation.pptx)

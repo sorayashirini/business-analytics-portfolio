@@ -1,0 +1,578 @@
+/*-- scss:defaults --*/
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Typography */
+$font-family-sans-serif: 'Inter', sans-serif;
+
+/* Core palette */
+$body-bg: #2f2f2f;
+$body-color: #e8e3d9;
+$primary: #9ca3af;
+
+/* Navbar */
+$navbar-bg: #1f2933;
+$navbar-fg: #f5f5f5;
+$navbar-hl: #9ca3af;
+
+/* Links */
+$link-color: #9ca3af;
+
+/*-- scss:rules --*/
+
+/* ===== Global ===== */
+
+body {
+  background-color: #2f2f2f;
+  color: #e8e3d9;
+}
+
+.page-columns,
+#quarto-content,
+main.content {
+  background: transparent;
+}
+
+h1, h2, h3, h4 {
+  color: #f3f0ea;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+p, li {
+  color: #e8e3d9;
+}
+
+a {
+  color: #9bb7d1;
+}
+
+a:hover {
+  color: #cbd5e1;
+}
+
+.footer,
+.nav-footer {
+  color: #d6d3cd;
+}
+
+/* ===== Navbar ===== */
+
+.navbar {
+  background-color: #1f2933 !important;
+  box-shadow: none;
+  border-bottom: 1px solid #374151;
+}
+
+.navbar a,
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #f3f0ea !important;
+}
+
+.navbar a:hover,
+.navbar-nav .nav-link:hover {
+  color: #9ca3af !important;
+}
+
+/* ===== Home / Postcard ===== */
+
+.postcard {
+  max-width: 92vw;
+  margin: 60px auto;
+  padding: 3rem 4rem;
+  background-color: #ffffff;
+  border: 1px solid #d8d2ca;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.postcard-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  width: 100%;
+}
+
+.postcard-text {
+  flex: 1 1 50%;
+  max-width: 650px;
+}
+
+.postcard-image-wrap {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.postcard-image {
+  width: auto;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.subtitle-small {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle-large {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: #555;
+  margin-bottom: 1.6rem;
+}
+
+.postcard-text p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 1.1rem;
+}
+
+/* Home page social links */
+.quarto-about-trestles .about .btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 8px 14px !important;
+  border-radius: 6px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  color: #e5e7eb !important;
+  text-decoration: none !important;
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+
+.quarto-about-trestles .about .btn:hover {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(255, 255, 255, 0.28) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+/* CTA buttons */
+.cta-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.cta-button,
+.cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 190px;
+  padding: 12px 22px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+/* Primary */
+.cta-button {
+  color: #ffffff !important;
+  background: #374151;
+  border: 1px solid #4b5563;
+  box-shadow: none;
+}
+
+.cta-button:hover {
+  background: #4b5563;
+  transform: translateY(-1px);
+}
+
+/* Secondary  */
+.cta-secondary {
+  color: #d6d3cd !important;
+  background: transparent;
+  border: 1px solid #4b5563;
+  box-shadow: none;
+}
+
+.cta-secondary:hover {
+  color: #ffffff !important;
+  background: #374151;
+  transform: translateY(-1px);
+}
+/* ===== Cards (About / Reflection / International / Contact wrappers) ===== */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.8rem;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  overflow: visible !important;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  color: #111 !important;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.card p,
+.card li {
+  color: #333 !important;
+  line-height: 1.8;
+}
+
+.card strong {
+  color: #6b8fb3;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+/* ===== Media Cards ===== */
+
+.media-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.media-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.media-card h2 {
+  color: #111 !important;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.media-card p,
+.media-card li {
+  color: #333 !important;
+  line-height: 1.7;
+}
+
+.media-card iframe {
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+/* ===== Projects Listing ===== */
+
+.quarto-listing-container-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quarto-grid-item {
+  background: #ffffff !important;
+  color: #111 !important;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.quarto-grid-item h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+}
+
+.quarto-grid-item p {
+  color: #333 !important;
+}
+
+.quarto-grid-item .listing-description,
+.quarto-grid-item .listing-meta {
+  color: #555 !important;
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+  background: rgba(107, 143, 179, 0.12);
+  color: #2f4358 !important;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.quarto-grid-item img {
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+}
+
+/* ===== Code / Output / Tables ===== */
+
+pre,
+code,
+.sourceCode,
+div.sourceCode,
+.cell,
+.cell-output,
+.cell-output-display,
+.cell-output pre,
+div.output,
+div.output pre {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+pre {
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+}
+
+code {
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+table,
+.quarto-table,
+.dataframe {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+table th,
+.dataframe th {
+  background-color: #1f2933 !important;
+  color: #ffffff !important;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+table td,
+.dataframe td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+table tr:nth-child(even) td,
+.dataframe tr:nth-child(even) td {
+  background-color: #f7f7f7 !important;
+}
+
+table tr:hover td,
+.dataframe tr:hover td {
+  background-color: #eaeaea !important;
+}
+
+/* ===== Workflow / Custom Boxes ===== */
+
+.workflow-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.workflow-step {
+  background: #e9eef5;
+  color: #1f2933;
+  border: 1px solid #6b8fb3;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.workflow-arrow {
+  color: #6b8fb3;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* ===== Contact ===== */
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 1rem;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #2f4358 !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.contact-links a i {
+  font-size: 1.2rem;
+  color: #6b8fb3;
+}
+
+.contact-links a:hover {
+  color: #111 !important;
+}
+
+.contact-links a:hover i {
+  color: #4f6f8f;
+}
+
+/* ===== International Experience ===== */
+
+.interactive-image {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, filter 0.35s ease;
+  filter: brightness(0.97);
+  cursor: zoom-in;
+}
+
+.interactive-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
+  filter: brightness(1);
+  position: relative;
+  z-index: 10;
+}
+
+.hero-image {
+  height: 320px;
+  object-fit: cover;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.columns {
+  margin-top: 0 !important;
+  margin-bottom: 0.8rem !important;
+}
+
+.column {
+  padding-top: 0 !important;
+}
+
+.thumb-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 900px) {
+  .postcard {
+    padding: 2rem 1.5rem;
+    margin: 20px;
+    min-height: auto;
+  }
+
+  .postcard-layout {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .postcard-text,
+  .postcard-image-wrap {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .postcard-image-wrap {
+    justify-content: center;
+  }
+
+  .subtitle-large {
+    font-size: 2.1rem;
+  }
+
+  .icon-links {
+    gap: 16px;
+    margin-top: 1.8rem;
+  }
+
+  .icon-links a {
+    font-size: 2rem;
+    color: #ddd;
+  }
+
+  .media-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image {
+    height: 240px;
+  }
+
+  .thumb-image {
+    height: 200px;
+  }
+
+  .interactive-image:hover {
+    transform: scale(1.01);
+  }
+}

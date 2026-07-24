@@ -1,0 +1,27 @@
+---
+title: ""
+listing:
+  contents: projects.yml
+  type: grid
+  categories: true
+  sort: "date desc"
+toc: false
+---
+
+# Projects
+
+This section showcases selected analytics projects, focusing on how data is used to solve real business problems.
+
+The projects demonstrate a full analytical workflow, including data preparation, exploratory analysis, statistical reasoning, and predictive modeling.
+
+Key areas covered:
+
+- Fraud detection using statistical analysis and machine learning  
+- Sentiment analysis using NLP and transformer models  
+- Application of analytics to real-world business scenarios  
+
+These projects represent my core work in analytics and machine learning during this module.
+
+::: {.callout-note}
+Click on each project to explore the methodology, code implementation, and business insights.
+:::

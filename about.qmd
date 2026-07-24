@@ -1,0 +1,62 @@
+---
+title: ""
+---
+
+# About Me
+
+I am a data analytics graduate with a background in consulting and project management, focused on applying data-driven thinking to real business problems.
+
+<div class="cards-container">
+
+<div class="card">
+
+## Background
+
+My professional background is in consulting and project management, where I worked on large-scale digital transformation initiatives across international teams. This experience exposed me to complex business environments and the importance of structured processes, clear communication, and performance tracking.
+
+</div>
+
+<div class="card">
+
+## Transition into Analytics
+
+Through my work with KPI tracking and reporting, I developed a strong interest in analytics. I became increasingly interested in going beyond reporting to understand patterns in data and generate insights that can support better decision-making.
+
+</div>
+
+<div class="card">
+
+## Current Focus
+
+- Python and SQL for data analysis  
+- Tableau for data visualisation  
+- Machine learning and NLP  
+- Applying analytics to real-world business problems  
+
+</div>
+
+<div class="card">
+
+## Approach to Work
+
+I bring a structured and analytical approach to problem solving, shaped by my experience in consulting environments. I focus on clarity, organisation, and delivering work that supports decision-making.
+
+</div>
+
+<div class="card">
+
+## Career Direction
+
+I am particularly interested in roles that combine business context with data analysis, focusing on analytics, reporting, and performance-driven decision-making.
+
+</div>
+
+<div class="card">
+
+## What I Bring
+
+I combine business experience with technical analytics skills, allowing me to translate complex data into insights that support decision-making.
+
+</div>
+
+</div>

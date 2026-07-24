@@ -1,0 +1,71 @@
+---
+title: ""
+---
+
+# Podcasts
+
+This page highlights selected podcasts that supported my understanding of data analytics, real-world applications, and career development.
+
+<div class="media-cards">
+
+<div class="media-card">
+
+## Everything Data Analytics
+
+<iframe style="border-radius:12px"
+src="https://open.spotify.com/embed/show/2DhQXJtnleGrt8hYl4f9HI?utm_source=generator"
+width="100%" height="352" frameBorder="0"
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+loading="lazy">
+</iframe>
+
+Focus on data quality and core analytics concepts explained in a practical and accessible way.
+
+</div>
+
+<div class="media-card">
+
+## Analytics Engineering Podcast
+
+<iframe style="border-radius:12px"
+src="https://open.spotify.com/embed/show/4BKMMeVXk4jJnAQSqGSJvE?utm_source=generator"
+width="100%" height="352" frameBorder="0"
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+loading="lazy">
+</iframe>
+
+Covers modern data stacks, analytics workflows, and how data teams operate in real-world environments.
+
+</div>
+
+<div class="media-card">
+
+## Analytics Power Hour
+
+<iframe style="border-radius:12px"
+src="https://open.spotify.com/embed/show/2ReJKUbDtcom5U0GgpOlAz?utm_source=generator"
+width="100%" height="352" frameBorder="0"
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+loading="lazy">
+</iframe>
+
+Practical and engaging discussions on dashboards, business analytics, and how data is used in organisations.
+
+</div>
+
+<div class="media-card">
+
+## Data Career Podcast
+
+<iframe style="border-radius:12px"
+src="https://open.spotify.com/embed/show/1nfBfEtCmuvJkPQgR3bS5a?utm_source=generator"
+width="100%" height="352" frameBorder="0"
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+loading="lazy">
+</iframe>
+
+A practical resource for job preparation, portfolio building, and understanding career paths in data analytics.
+
+</div>
+
+</div>

@@ -1,0 +1,17 @@
+- title: Fraud Pattern Analysis and Predictive Modeling
+  path: fraud-analysis-project.qmd
+  description: Developed an end-to-end fraud analytics pipeline combining exploratory analysis, statistical testing, and machine learning to identify high-risk transactions and support fraud detection strategies.
+  categories: [Python, Statistics, Machine Learning, Fraud Detection]
+  image: ../images/fraud.jpg
+
+- title: NLP Sentiment Analysis – BERT vs Generative AI
+  path: nlp-sentiment-project.qmd
+  description: Evaluated BERT and GPT-based models for sentiment classification of employee reviews, comparing performance and highlighting the strengths of task-specific fine-tuning for business insights.
+  categories: [NLP, Machine Learning, BERT, AI]
+  image: ../images/nlp.jpg
+
+- title: Clinic Appointment No-Show Analysis (SQL & Tableau)
+  path: clinic-no-show-analysis.qmd
+  description: Conducted SQL-based analysis on healthcare appointment data to identify drivers of missed visits, including waiting time and patient demographics, and developed actionable insights supported by a Tableau dashboard.
+  categories: [SQL, PostgreSQL, Data Analysis, Healthcare Analytics]
+  image: ../images/healthcare.jpg

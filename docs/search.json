@@ -1,0 +1,569 @@
+[
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "This portfolio reflects my transition from a consulting and project management background into a more analytics-focused role.\nIt demonstrates not only the development of technical skills, but also my ability to apply data-driven thinking to real business problems.\n\n\n\nThroughout this module, I developed practical skills in:\n\nPython for data analysis\n\nexploratory data analysis and statistical thinking\n\nmachine learning fundamentals\n\nMore importantly, I learned how to connect technical analysis with business context\n\nIn the fraud detection project, I explored how data can support risk identification and decision-making\n\nIn the NLP project, I worked with unstructured text data and compared AI approaches, gaining insight into model strengths and limitations\n\nThis shift from technical execution to business-oriented analysis was a key part of my development.\nThis transition required a shift in mindset, from focusing on delivery and execution to thinking critically about data, interpretation, and decision-making.\n\n\n\nOne of the main challenges was working with machine learning models such as BERT.\n\nInitially, I found it difficult to understand how text is processed and how models can be applied in practice\n\nI addressed this by breaking down the workflow step-by-step and focusing on core concepts rather than complexity\n\nAnother challenge was handling performance and technical constraints when working with large models.\n\nI simplified the implementation\n\nReduced dataset size where necessary\n\nFocused on meaningful outputs rather than computational complexity\n\nI also faced challenges in building the portfolio using Quarto.\n\nLearning how to structure files, manage YAML configuration, and debug rendering issues was an important part of the process\n\nThese challenges helped me become more confident in both technical implementation and problem-solving.\nBefore this module, I viewed analytics mainly as reporting and data processing. This experience changed my perspective, showing that analytics is fundamentally about interpreting data to support decisions.\n\n\n\nThis experience highlighted several important lessons:\n\nTechnical accuracy alone is not enough — clear communication of results is equally important\n\nSimpler, well-structured models can often be more effective than complex approaches\n\nUnderstanding the business problem is critical when selecting analytical methods\n\nModel performance must always be interpreted in context, not just reported\n\nMy consulting background helped me approach analytics problems in a structured and business-oriented way\n\n\n\n\nGoing forward, I plan to strengthen my skills in:\n\nadvanced machine learning techniques\n\nfeature engineering and model evaluation\n\ndata visualisation and dashboard development\n\napplying analytics to real-world business problems\n\nWhile I have built a strong foundation, I recognise that further experience is needed to apply advanced models at scale and in real-world production environments.\nThis portfolio represents an important step in developing a strong foundation for a career in data analytics."
+  },
+  {
+    "objectID": "reflection.html#learning-journey",
+    "href": "reflection.html#learning-journey",
+    "title": "Reflection",
+    "section": "",
+    "text": "Throughout this module, I developed practical skills in:\n\nPython for data analysis\n\nexploratory data analysis and statistical thinking\n\nmachine learning fundamentals\n\nMore importantly, I learned how to connect technical analysis with business context\n\nIn the fraud detection project, I explored how data can support risk identification and decision-making\n\nIn the NLP project, I worked with unstructured text data and compared AI approaches, gaining insight into model strengths and limitations\n\nThis shift from technical execution to business-oriented analysis was a key part of my development.\nThis transition required a shift in mindset, from focusing on delivery and execution to thinking critically about data, interpretation, and decision-making."
+  },
+  {
+    "objectID": "reflection.html#challenges-and-problem-solving",
+    "href": "reflection.html#challenges-and-problem-solving",
+    "title": "Reflection",
+    "section": "",
+    "text": "One of the main challenges was working with machine learning models such as BERT.\n\nInitially, I found it difficult to understand how text is processed and how models can be applied in practice\n\nI addressed this by breaking down the workflow step-by-step and focusing on core concepts rather than complexity\n\nAnother challenge was handling performance and technical constraints when working with large models.\n\nI simplified the implementation\n\nReduced dataset size where necessary\n\nFocused on meaningful outputs rather than computational complexity\n\nI also faced challenges in building the portfolio using Quarto.\n\nLearning how to structure files, manage YAML configuration, and debug rendering issues was an important part of the process\n\nThese challenges helped me become more confident in both technical implementation and problem-solving.\nBefore this module, I viewed analytics mainly as reporting and data processing. This experience changed my perspective, showing that analytics is fundamentally about interpreting data to support decisions."
+  },
+  {
+    "objectID": "reflection.html#key-insights",
+    "href": "reflection.html#key-insights",
+    "title": "Reflection",
+    "section": "",
+    "text": "This experience highlighted several important lessons:\n\nTechnical accuracy alone is not enough — clear communication of results is equally important\n\nSimpler, well-structured models can often be more effective than complex approaches\n\nUnderstanding the business problem is critical when selecting analytical methods\n\nModel performance must always be interpreted in context, not just reported\n\nMy consulting background helped me approach analytics problems in a structured and business-oriented way"
+  },
+  {
+    "objectID": "reflection.html#future-development",
+    "href": "reflection.html#future-development",
+    "title": "Reflection",
+    "section": "",
+    "text": "Going forward, I plan to strengthen my skills in:\n\nadvanced machine learning techniques\n\nfeature engineering and model evaluation\n\ndata visualisation and dashboard development\n\napplying analytics to real-world business problems\n\nWhile I have built a strong foundation, I recognise that further experience is needed to apply advanced models at scale and in real-world production environments.\nThis portfolio represents an important step in developing a strong foundation for a career in data analytics."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\nThis section showcases selected analytics projects, focusing on how data is used to solve real business problems.\nThe projects demonstrate a full analytical workflow, including data preparation, exploratory analysis, statistical reasoning, and predictive modeling.\nKey areas covered:\n\nFraud detection using statistical analysis and machine learning\n\nSentiment analysis using NLP and transformer models\n\nApplication of analytics to real-world business scenarios\n\nThese projects represent my core work in analytics and machine learning during this module.\n\n\n\n\n\n\nNote\n\n\n\nClick on each project to explore the methodology, code implementation, and business insights.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClinic Appointment No-Show Analysis (SQL & Tableau)\n\n\n\nSQL\n\nPostgreSQL\n\nData Analysis\n\nHealthcare Analytics\n\n\n\nConducted SQL-based analysis on healthcare appointment data to identify drivers of missed visits, including waiting time and patient demographics, and developed actionable…\n\n\n\nSoraya Shirini\n\n\nMar 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNLP Sentiment Analysis – BERT vs Generative AI\n\n\n\nNLP\n\nMachine Learning\n\nBERT\n\nAI\n\n\n\nEvaluated BERT and GPT-based models for sentiment classification of employee reviews, comparing performance and highlighting the strengths of task-specific fine-tuning for…\n\n\n\nSoraya Shirini\n\n\nApr 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nFraud Pattern Analysis and Predictive Modeling\n\n\n\nPython\n\nStatistics\n\nMachine Learning\n\nFraud Detection\n\n\n\nDeveloped an end-to-end fraud analytics pipeline combining exploratory analysis, statistical testing, and machine learning to identify high-risk transactions and support…\n\n\n\nSoraya Shirini\n\n\nMar 1, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html",
+    "href": "projects/clinic-no-show-analysis.html",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "",
+    "text": "This project examines patient appointment data to understand patterns behind missed clinic appointments.\nThe analysis combines SQL-based data cleaning, KPI calculation, segmentation, and business interpretation to identify which factors are most strongly associated with no-shows."
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#overview",
+    "href": "projects/clinic-no-show-analysis.html#overview",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "",
+    "text": "This project examines patient appointment data to understand patterns behind missed clinic appointments.\nThe analysis combines SQL-based data cleaning, KPI calculation, segmentation, and business interpretation to identify which factors are most strongly associated with no-shows."
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#business-problem",
+    "href": "projects/clinic-no-show-analysis.html#business-problem",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Business Problem",
+    "text": "Business Problem\nMissed appointments create operational inefficiency in healthcare settings. They waste clinical capacity, increase waiting times, and reduce service effectiveness.\nThe goal of this project was to identify key factors linked to appointment no-shows and generate practical recommendations that could help clinics improve attendance."
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#dataset",
+    "href": "projects/clinic-no-show-analysis.html#dataset",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Dataset",
+    "text": "Dataset\nThe dataset contains over 110,000 medical appointments. The target variable is no_show:\n\n1 = missed appointment\n0 = attended appointment\n\nThe dataset includes appointment timing, patient demographics, neighbourhood, chronic condition indicators, SMS reminder status, and attendance outcome.\nInitial data checks showed that the dataset required cleaning before analysis, including removal of one invalid age value and records with impossible waiting times."
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#analytical-approach",
+    "href": "projects/clinic-no-show-analysis.html#analytical-approach",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Analytical Approach",
+    "text": "Analytical Approach\nThe project followed a structured workflow:\n\nData loading from PostgreSQL\nData cleaning and transformation\nKPI calculation\nSegmentation analysis\nInteraction analysis\nBusiness interpretation"
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#project-workflow",
+    "href": "projects/clinic-no-show-analysis.html#project-workflow",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Project Workflow",
+    "text": "Project Workflow\nThe following workflow summarises the end-to-end process used in this project.\n\n\nRaw Data\n\n\n→\n\n\nCleaning & Transformation\n\n\n→\n\n\nSQL Analysis\n\n\n→\n\n\nSegmentation\n\n\n→\n\n\nInteraction Analysis\n\n\n→\n\n\nBusiness Insights"
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#key-findings",
+    "href": "projects/clinic-no-show-analysis.html#key-findings",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\nThe overall no-show rate was approximately 20%, meaning around 1 in 5 appointments were missed.\nWaiting time showed a strong relationship with attendance. Patients with short waiting times had much lower no-show rates than those waiting longer.\nAge was also important. Patients aged 18–30 showed the highest no-show rates, while patients over 50 had lower rates.\nGender did not show a meaningful difference in no-show behaviour.\n\n\n\n\n\n\nNoteKey Insight\n\n\n\nThe highest-risk group was younger patients with longer waiting times and no SMS reminder.\nThis suggests that clinics should focus on targeted intervention rather than applying the same reminder strategy to all patients."
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#business-interpretation",
+    "href": "projects/clinic-no-show-analysis.html#business-interpretation",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Business Interpretation",
+    "text": "Business Interpretation\nThe findings suggest that no-shows are influenced more by operational and behavioural factors than by simple demographic characteristics such as gender.\nThe strongest opportunities for improvement are reducing waiting time and focusing reminder efforts on higher-risk patient groups."
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#recommendations",
+    "href": "projects/clinic-no-show-analysis.html#recommendations",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Recommendations",
+    "text": "Recommendations\n\nReduce waiting time where possible\nPrioritise reminder strategies for younger patients\nTarget high-risk segments rather than treating all patients the same\nMonitor waiting-time driven attendance risk as a core KPI"
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#technical-stack",
+    "href": "projects/clinic-no-show-analysis.html#technical-stack",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Technical Stack",
+    "text": "Technical Stack\n\nPostgreSQL\nSQL\nPython\npandas\nSQLAlchemy\nTableau"
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#technical-implementation-python-sql",
+    "href": "projects/clinic-no-show-analysis.html#technical-implementation-python-sql",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Technical Implementation (Python + SQL)",
+    "text": "Technical Implementation (Python + SQL)\nThe following code snippets demonstrate how PostgreSQL queries were executed through Python to support a reproducible SQL workflow.\n\nDatabase Connection\n\n\nOverall No-Show Rate\n\n\n\n\n\n\n\n\n\ntotal_appointments\ntotal_no_shows\nno_show_rate\n\n\n\n\n0\n110521\n22314\n0.202\n\n\n\n\n\n\n\nThis query shows the overall attendance problem. The result showed a no-show rate of about 20%.\n\n\nNo-Show Rate by Waiting Group\n\n\n\n\n\n\n\n\n\nwaiting_group\ntotal_appointments\nno_show_rate\n\n\n\n\n0\n0-10 days\n76075\n0.146\n\n\n1\n10-30 days\n24068\n0.323\n\n\n2\n30-60 days\n8283\n0.342\n\n\n3\n60+ days\n2095\n0.284\n\n\n\n\n\n\n\nPatients waiting 0–10 days had a much lower no-show rate than patients waiting longer, showing that waiting time is an important driver of missed appointments.\n\n\nNo-Show Rate by Age Group\n\n\n\n\n\n\n\n\n\nage_group\ntotal_appointments\nno_show_rate\n\n\n\n\n0\n0-18\n28865\n0.220\n\n\n1\n18-30\n16763\n0.247\n\n\n2\n31-50\n29471\n0.207\n\n\n3\n50-70\n26850\n0.163\n\n\n4\n70+\n8572\n0.158\n\n\n\n\n\n\n\nThe results showed that patients aged 18–30 had the highest no-show rate, while older groups had lower attendance risk.\n\n\nNo-Show Rate by Gender\n\n\n\n\n\n\n\n\n\ngender\ntotal_appointments\nno_show_rate\n\n\n\n\n0\nF\n71836\n0.203\n\n\n1\nM\n38685\n0.200\n\n\n\n\n\n\n\nThe difference between male and female patients was minimal, suggesting that gender is not a meaningful predictor of no-show behaviour in this dataset.\n\n\nHigher-Risk Segment Analysis\n\n\n\n\n\n\n\n\n\nage_group\nwaiting_group\nsms_received\ntotal_appointments\nno_show_rate\n\n\n\n\n0\nUnder 30\n30+\n0\n1472\n0.452\n\n\n1\n30-49\n30+\n0\n1025\n0.420\n\n\n2\nUnder 30\n10-30\n0\n4126\n0.409\n\n\n3\n30-49\n10-30\n0\n2560\n0.378\n\n\n4\nUnder 30\n30+\n1\n2446\n0.360\n\n\n5\nUnder 30\n10-30\n1\n6034\n0.336\n\n\n6\n30-49\n10-30\n1\n4023\n0.316\n\n\n7\n30-49\n30+\n1\n1644\n0.316\n\n\n8\nUnder 30\n0-10\n1\n5256\n0.295\n\n\n9\n50+\n10-30\n0\n2993\n0.295\n\n\n\n\n\n\n\nThis analysis identified the highest-risk segment as younger patients with long waiting times and no SMS reminder, with a no-show rate of around 45%."
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#tableau-dashboard",
+    "href": "projects/clinic-no-show-analysis.html#tableau-dashboard",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Tableau Dashboard",
+    "text": "Tableau Dashboard\nA simple Tableau dashboard was created to support visual exploration of the main findings, including:\n\noverall no-show KPI\nno-show rate by waiting group\nno-show rate by age group\nno-show rate by SMS reminder"
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#business-impact",
+    "href": "projects/clinic-no-show-analysis.html#business-impact",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Business Impact",
+    "text": "Business Impact\nThese findings suggest that clinics can improve attendance by focusing on operational improvements and targeted intervention rather than broad, generic reminder strategies.\nFor healthcare providers, this means that reducing waiting time and identifying higher-risk patient groups can likely deliver more value than relying on one uniform communication approach."
+  },
+  {
+    "objectID": "projects/clinic-no-show-analysis.html#supporting-material",
+    "href": "projects/clinic-no-show-analysis.html#supporting-material",
+    "title": "Clinic Appointment No-Show Analysis",
+    "section": "Supporting Material",
+    "text": "Supporting Material\nYou can explore the dashboard below:\n\nView Tableau Dashboard"
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
+    "section": "",
+    "text": "This page presents selected learning resources that supported my development in Python-based data analytics.\nRather than listing general tutorials, these resources were chosen based on their practical, hands-on approach and their relevance to real-world data analysis workflows.\nThese resources played a key role in helping me build foundational skills in data cleaning, analysis, and visualisation, which were directly applied in my project work.\n\n\n\n\n\nDuration: ~4 hours\nA comprehensive course covering data loading, cleaning, and visualisation using pandas and NumPy.\nWhat I gained:\nThis resource helped me understand how to structure data analysis workflows and apply pandas functions to real datasets.\n\n\n\n\n\nDuration: ~5 hours (playlist)\nA structured, step-by-step series covering pandas fundamentals, filtering, grouping, handling missing data, time-series analysis, and working with files such as CSV and SQL.\nWhat I gained:\nThis resource helped me build confidence in using pandas for data manipulation.\n\n\n\n\n\nDuration: ~1 hour\nA fast-paced, practical tutorial covering data import, filtering, grouping, and cleaning, with modern pandas techniques and real-world usage examples.\nWhat I gained:\nThis resource improved my understanding of data cleaning and transformation.\n\n\n\n\n\nDuration: ~1 hour 40 minutes\nCovers DataFrame operations, conditional selection, statistical analysis, data cleaning, and visualisation using pandas and Seaborn.\nWhat I gained:\nThis resource introduced practical approaches to exploratory data analysis.\n\n\n\n\n\nDuration: ~2–3 hours\nA project-based tutorial demonstrating end-to-end data analysis using pandas and visualisation tools, including handling real-world messy data.\nWhat I gained:\nThis resource helped me apply analysis techniques in project-based scenarios.\n\n\n\n\n\nDuration: ~1 hour\nA practical, project-based tutorial demonstrating a full data analysis workflow, including data cleaning, exploration, and visualisation. The video focuses on building a real portfolio project using SQL and Python, making it highly relevant for developing applied analytics skills.\nWhat I gained:\nThis resource helped me understand how to structure portfolio-ready projects and present data analysis work in a clear and practical way.\n\n\n\nThese resources were instrumental in building my technical foundation and bridging the gap between theoretical knowledge and practical application. They directly supported the development of my project work and helped me transition into a more hands-on, applied approach to analytics."
+  },
+  {
+    "objectID": "media.html#data-analysis-with-python-freecodecamp",
+    "href": "media.html#data-analysis-with-python-freecodecamp",
+    "title": "Media",
+    "section": "",
+    "text": "Duration: ~4 hours\nA comprehensive course covering data loading, cleaning, and visualisation using pandas and NumPy.\nWhat I gained:\nThis resource helped me understand how to structure data analysis workflows and apply pandas functions to real datasets."
+  },
+  {
+    "objectID": "media.html#python-pandas-tutorial-series-corey-schafer",
+    "href": "media.html#python-pandas-tutorial-series-corey-schafer",
+    "title": "Media",
+    "section": "",
+    "text": "Duration: ~5 hours (playlist)\nA structured, step-by-step series covering pandas fundamentals, filtering, grouping, handling missing data, time-series analysis, and working with files such as CSV and SQL.\nWhat I gained:\nThis resource helped me build confidence in using pandas for data manipulation."
+  },
+  {
+    "objectID": "media.html#complete-pandas-data-science-tutorial-rob-mulla",
+    "href": "media.html#complete-pandas-data-science-tutorial-rob-mulla",
+    "title": "Media",
+    "section": "",
+    "text": "Duration: ~1 hour\nA fast-paced, practical tutorial covering data import, filtering, grouping, and cleaning, with modern pandas techniques and real-world usage examples.\nWhat I gained:\nThis resource improved my understanding of data cleaning and transformation."
+  },
+  {
+    "objectID": "media.html#pandas-full-course-derek-banas",
+    "href": "media.html#pandas-full-course-derek-banas",
+    "title": "Media",
+    "section": "",
+    "text": "Duration: ~1 hour 40 minutes\nCovers DataFrame operations, conditional selection, statistical analysis, data cleaning, and visualisation using pandas and Seaborn.\nWhat I gained:\nThis resource introduced practical approaches to exploratory data analysis."
+  },
+  {
+    "objectID": "media.html#real-world-data-analysis-olympics-dataset-keith-galli",
+    "href": "media.html#real-world-data-analysis-olympics-dataset-keith-galli",
+    "title": "Media",
+    "section": "",
+    "text": "Duration: ~2–3 hours\nA project-based tutorial demonstrating end-to-end data analysis using pandas and visualisation tools, including handling real-world messy data.\nWhat I gained:\nThis resource helped me apply analysis techniques in project-based scenarios."
+  },
+  {
+    "objectID": "media.html#data-analyst-portfolio-project-alex-the-analyst",
+    "href": "media.html#data-analyst-portfolio-project-alex-the-analyst",
+    "title": "Media",
+    "section": "",
+    "text": "Duration: ~1 hour\nA practical, project-based tutorial demonstrating a full data analysis workflow, including data cleaning, exploration, and visualisation. The video focuses on building a real portfolio project using SQL and Python, making it highly relevant for developing applied analytics skills.\nWhat I gained:\nThis resource helped me understand how to structure portfolio-ready projects and present data analysis work in a clear and practical way."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Soraya Shirini",
+    "section": "",
+    "text": "Transforming data into actionable insights for business decision-making.\n\n\nData analytics professional with 5+ years of consulting and project management experience at Accenture, including 2+ years in a managerial role.\nMy background includes large-scale digital transformation, KPI reporting, stakeholder management, and cross-functional coordination across international teams. I have worked extensively with Jira, Confluence, Excel, and reporting workflows to support operational visibility and decision-making.\n\n\n\nMy current technical focus includes Python, SQL, Tableau, machine learning, and deep learning, with a growing portfolio of projects that connect business problems with data-driven solutions.\n\n\n\nThis portfolio highlights selected work in analytics, NLP, and business-focused problem solving.\n\nExplore My Project\nView CV"
+  },
+  {
+    "objectID": "index.html#data-analytics-portfolio",
+    "href": "index.html#data-analytics-portfolio",
+    "title": "Soraya Shirini",
+    "section": "",
+    "text": "Transforming data into actionable insights for business decision-making.\n\n\nData analytics professional with 5+ years of consulting and project management experience at Accenture, including 2+ years in a managerial role.\nMy background includes large-scale digital transformation, KPI reporting, stakeholder management, and cross-functional coordination across international teams. I have worked extensively with Jira, Confluence, Excel, and reporting workflows to support operational visibility and decision-making.\n\n\n\nMy current technical focus includes Python, SQL, Tableau, machine learning, and deep learning, with a growing portfolio of projects that connect business problems with data-driven solutions.\n\n\n\nThis portfolio highlights selected work in analytics, NLP, and business-focused problem solving.\n\nExplore My Project\nView CV"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a data analytics graduate with a background in consulting and project management, focused on applying data-driven thinking to real business problems.\n\n\n\nMy professional background is in consulting and project management, where I worked on large-scale digital transformation initiatives across international teams. This experience exposed me to complex business environments and the importance of structured processes, clear communication, and performance tracking.\n\n\n\nThrough my work with KPI tracking and reporting, I developed a strong interest in analytics. I became increasingly interested in going beyond reporting to understand patterns in data and generate insights that can support better decision-making.\n\n\n\n\nPython and SQL for data analysis\n\nTableau for data visualisation\n\nMachine learning and NLP\n\nApplying analytics to real-world business problems\n\n\n\n\nI bring a structured and analytical approach to problem solving, shaped by my experience in consulting environments. I focus on clarity, organisation, and delivering work that supports decision-making.\n\n\n\nI am particularly interested in roles that combine business context with data analysis, focusing on analytics, reporting, and performance-driven decision-making.\n\n\n\nI combine business experience with technical analytics skills, allowing me to translate complex data into insights that support decision-making."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "",
+    "text": "My professional background is in consulting and project management, where I worked on large-scale digital transformation initiatives across international teams. This experience exposed me to complex business environments and the importance of structured processes, clear communication, and performance tracking."
+  },
+  {
+    "objectID": "about.html#transition-into-analytics",
+    "href": "about.html#transition-into-analytics",
+    "title": "About Me",
+    "section": "",
+    "text": "Through my work with KPI tracking and reporting, I developed a strong interest in analytics. I became increasingly interested in going beyond reporting to understand patterns in data and generate insights that can support better decision-making."
+  },
+  {
+    "objectID": "about.html#current-focus",
+    "href": "about.html#current-focus",
+    "title": "About Me",
+    "section": "",
+    "text": "Python and SQL for data analysis\n\nTableau for data visualisation\n\nMachine learning and NLP\n\nApplying analytics to real-world business problems"
+  },
+  {
+    "objectID": "about.html#approach-to-work",
+    "href": "about.html#approach-to-work",
+    "title": "About Me",
+    "section": "",
+    "text": "I bring a structured and analytical approach to problem solving, shaped by my experience in consulting environments. I focus on clarity, organisation, and delivering work that supports decision-making."
+  },
+  {
+    "objectID": "about.html#career-direction",
+    "href": "about.html#career-direction",
+    "title": "About Me",
+    "section": "",
+    "text": "I am particularly interested in roles that combine business context with data analysis, focusing on analytics, reporting, and performance-driven decision-making."
+  },
+  {
+    "objectID": "about.html#what-i-bring",
+    "href": "about.html#what-i-bring",
+    "title": "About Me",
+    "section": "",
+    "text": "I combine business experience with technical analytics skills, allowing me to translate complex data into insights that support decision-making."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "If you would like to connect or discuss potential opportunities, please feel free to reach out through the channels below.\nI am currently based in Ireland and open to opportunities in analytics and data-related roles.\n\n\n\n\n\n\nNote\n\n\n\nYou can also explore my projects and portfolio to learn more about my work.\n\n\n\n\n\n\n\n  LinkedIn \n  GitHub \n  Email \n\n\n\n\n\nOpen to data analytics and business analytics roles\n\nInterested in positions that combine data analysis with business decision-making\n\nAvailable for collaboration, networking, and professional discussions"
+  },
+  {
+    "objectID": "contact.html#connect-with-me",
+    "href": "contact.html#connect-with-me",
+    "title": "Contact",
+    "section": "",
+    "text": "LinkedIn \n  GitHub \n  Email"
+  },
+  {
+    "objectID": "contact.html#availability",
+    "href": "contact.html#availability",
+    "title": "Contact",
+    "section": "",
+    "text": "Open to data analytics and business analytics roles\n\nInterested in positions that combine data analysis with business decision-making\n\nAvailable for collaboration, networking, and professional discussions"
+  },
+  {
+    "objectID": "international-experience.html",
+    "href": "international-experience.html",
+    "title": "International Experience",
+    "section": "",
+    "text": "Working and travelling across different countries has played a key role in shaping my professional development.\nThese experiences strengthened my ability to adapt, communicate, and operate in complex international environments.\nMore importantly, they influenced how I approach data and problem solving, by connecting analytical thinking with real-world operational and business contexts.\n\n\n\n\n  \n\n\n  \n\n  \n\n\nLiving in Japan for over a decade shaped my approach to structured problem solving and process-driven environments.\nThis experience helped me develop:\n\nstrong attention to detail\n\ndiscipline in execution\n\nthe ability to work effectively in highly structured systems\n\nKey takeaway:\nStrong systems, consistency, and disciplined execution are essential for scalable and reliable outcomes.\n\n\n\n  \n\n\n  \n\n  \n\n\nDuring my time at Sony, I regularly visited manufacturing sites in Malaysia to support the transition from prototype development to mass production.\nThis experience exposed me to:\n\nend-to-end product lifecycle processes\n\ncoordination between engineering, manufacturing, and operations\n\nthe practical challenges of scaling from development to production\n\nKey takeaway:\nData and decisions must align with operational reality, not just technical theory.\n\n\n\n  \n\n\n  \n\n  \n\n\nWhile working in consulting, I spent several months onsite in Australia supporting clients during UAT and system go-live phases.\nThis involved:\n\nworking directly with stakeholders in critical delivery stages\n\ncoordinating across teams during high-pressure implementation periods\n\nsupporting issue resolution and system readiness\n\nKey takeaway:\nClear communication, adaptability, and stakeholder coordination are essential in business-critical delivery environments.\n\n\n\nThese international experiences shaped how I approach analytics and problem solving.\nThey strengthened my ability to:\n\nunderstand the context behind data\n\nadapt to different environments and working styles\n\ncommunicate effectively across teams and stakeholders\n\nconnect technical work with real operational and business needs\n\nThese experiences continue to influence how I think about analytics, delivery, and decision-making in global organisations."
+  },
+  {
+    "objectID": "international-experience.html#japan-living-working",
+    "href": "international-experience.html#japan-living-working",
+    "title": "International Experience",
+    "section": "",
+    "text": "Living in Japan for over a decade shaped my approach to structured problem solving and process-driven environments.\nThis experience helped me develop:\n\nstrong attention to detail\n\ndiscipline in execution\n\nthe ability to work effectively in highly structured systems\n\nKey takeaway:\nStrong systems, consistency, and disciplined execution are essential for scalable and reliable outcomes."
+  },
+  {
+    "objectID": "international-experience.html#malaysia-sony-factory-product-development",
+    "href": "international-experience.html#malaysia-sony-factory-product-development",
+    "title": "International Experience",
+    "section": "",
+    "text": "During my time at Sony, I regularly visited manufacturing sites in Malaysia to support the transition from prototype development to mass production.\nThis experience exposed me to:\n\nend-to-end product lifecycle processes\n\ncoordination between engineering, manufacturing, and operations\n\nthe practical challenges of scaling from development to production\n\nKey takeaway:\nData and decisions must align with operational reality, not just technical theory."
+  },
+  {
+    "objectID": "international-experience.html#australia-client-delivery-uat-go-live",
+    "href": "international-experience.html#australia-client-delivery-uat-go-live",
+    "title": "International Experience",
+    "section": "",
+    "text": "While working in consulting, I spent several months onsite in Australia supporting clients during UAT and system go-live phases.\nThis involved:\n\nworking directly with stakeholders in critical delivery stages\n\ncoordinating across teams during high-pressure implementation periods\n\nsupporting issue resolution and system readiness\n\nKey takeaway:\nClear communication, adaptability, and stakeholder coordination are essential in business-critical delivery environments."
+  },
+  {
+    "objectID": "international-experience.html#overall-reflection",
+    "href": "international-experience.html#overall-reflection",
+    "title": "International Experience",
+    "section": "",
+    "text": "These international experiences shaped how I approach analytics and problem solving.\nThey strengthened my ability to:\n\nunderstand the context behind data\n\nadapt to different environments and working styles\n\ncommunicate effectively across teams and stakeholders\n\nconnect technical work with real operational and business needs\n\nThese experiences continue to influence how I think about analytics, delivery, and decision-making in global organisations."
+  },
+  {
+    "objectID": "podcasts.html",
+    "href": "podcasts.html",
+    "title": "Podcasts",
+    "section": "",
+    "text": "This page highlights selected podcasts that supported my understanding of data analytics, real-world applications, and career development.\n\n\n\n\n\nFocus on data quality and core analytics concepts explained in a practical and accessible way.\n\n\n\n\n\nCovers modern data stacks, analytics workflows, and how data teams operate in real-world environments.\n\n\n\n\n\nPractical and engaging discussions on dashboards, business analytics, and how data is used in organisations.\n\n\n\n\n\nA practical resource for job preparation, portfolio building, and understanding career paths in data analytics."
+  },
+  {
+    "objectID": "podcasts.html#everything-data-analytics",
+    "href": "podcasts.html#everything-data-analytics",
+    "title": "Podcasts",
+    "section": "",
+    "text": "Focus on data quality and core analytics concepts explained in a practical and accessible way."
+  },
+  {
+    "objectID": "podcasts.html#analytics-engineering-podcast",
+    "href": "podcasts.html#analytics-engineering-podcast",
+    "title": "Podcasts",
+    "section": "",
+    "text": "Covers modern data stacks, analytics workflows, and how data teams operate in real-world environments."
+  },
+  {
+    "objectID": "podcasts.html#analytics-power-hour",
+    "href": "podcasts.html#analytics-power-hour",
+    "title": "Podcasts",
+    "section": "",
+    "text": "Practical and engaging discussions on dashboards, business analytics, and how data is used in organisations."
+  },
+  {
+    "objectID": "podcasts.html#data-career-podcast",
+    "href": "podcasts.html#data-career-podcast",
+    "title": "Podcasts",
+    "section": "",
+    "text": "A practical resource for job preparation, portfolio building, and understanding career paths in data analytics."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html",
+    "href": "projects/fraud-analysis-project.html",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "",
+    "text": "This project examines fraud patterns in customer transaction data and evaluates whether fraud can be predicted using customer and transaction-related variables.\nThe analysis combines exploratory data analysis, statistical testing, outlier detection, and predictive modeling to understand which factors are associated with fraud and whether they can support fraud detection."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#overview",
+    "href": "projects/fraud-analysis-project.html#overview",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "",
+    "text": "This project examines fraud patterns in customer transaction data and evaluates whether fraud can be predicted using customer and transaction-related variables.\nThe analysis combines exploratory data analysis, statistical testing, outlier detection, and predictive modeling to understand which factors are associated with fraud and whether they can support fraud detection."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#business-problem",
+    "href": "projects/fraud-analysis-project.html#business-problem",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Business Problem",
+    "text": "Business Problem\nFraud detection is an important part of financial risk management. Organizations need to identify suspicious activity as early as possible to reduce losses and improve prevention strategies.\nThe goal of this project was to determine whether customer characteristics and transaction-related variables could reliably distinguish fraudulent from non-fraudulent activity."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#dataset",
+    "href": "projects/fraud-analysis-project.html#dataset",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Dataset",
+    "text": "Dataset\nThe dataset contains 500 rows and 23 columns. The target variable is is_fraud:\n\n1 = fraud\n0 = non-fraud\n\nThe dataset includes customer, financial, and transaction-related variables such as age, income, credit score, loan amount, transaction amount, device type, and transaction type.\nInitial data checks showed no missing values, no duplicates, and a balanced fraud distribution."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#analytical-approach",
+    "href": "projects/fraud-analysis-project.html#analytical-approach",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Analytical Approach",
+    "text": "Analytical Approach\nThe project followed a structured workflow:\n\nData understanding\nData cleaning and preparation\nExploratory data analysis\nOutlier detection\nConfidence interval analysis\nHypothesis testing\nPredictive modeling (Logistic Regression)"
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#model-selection-rationale",
+    "href": "projects/fraud-analysis-project.html#model-selection-rationale",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Model Selection Rationale",
+    "text": "Model Selection Rationale\nLogistic Regression was selected as a baseline model due to its interpretability and suitability for binary classification problems. It allows for clear understanding of how input variables influence fraud prediction, which is important in risk-sensitive business contexts."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#project-workflow",
+    "href": "projects/fraud-analysis-project.html#project-workflow",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Project Workflow",
+    "text": "Project Workflow\nThe following workflow summarises the end-to-end analytical process used in this project.\n\n\nRaw Data\n\n\n→\n\n\nCleaning & Preparation\n\n\n→\n\n\nEDA & Visualization\n\n\n→\n\n\nStatistical Testing\n\n\n→\n\n\nModel Training\n\n\n→\n\n\nModel Evaluation\n\n\n→\n\n\nBusiness Insights"
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#key-findings",
+    "href": "projects/fraud-analysis-project.html#key-findings",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Key Findings",
+    "text": "Key Findings\nMost variables did not strongly differentiate fraud from non-fraud cases.\nVariables such as transaction amount, loan amount, credit score, region, and device type showed weak or no clear relationship with fraud.\nThe only variable showing a statistically significant difference was personal income, with fraud cases associated with lower income levels.\n\n\n\n\n\n\nNoteKey Insight\n\n\n\nThe analysis showed that traditional demographic and financial variables were not strong predictors of fraud.\nThis highlights the importance of behavioural patterns and transaction-level data in building effective fraud detection systems."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#model-performance",
+    "href": "projects/fraud-analysis-project.html#model-performance",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Model Performance",
+    "text": "Model Performance\nLogistic Regression results:\n\nAccuracy: 0.61\nPrecision: 0.58\nRecall: 0.69\nROC-AUC: 0.61\n\nThese results suggest limited predictive power using the available features."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#limitations",
+    "href": "projects/fraud-analysis-project.html#limitations",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Limitations",
+    "text": "Limitations\nThe model performance is constrained by the dataset size and the type of features available. The dataset primarily includes static attributes, which limits the ability to capture behavioural fraud patterns."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#business-interpretation",
+    "href": "projects/fraud-analysis-project.html#business-interpretation",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Business Interpretation",
+    "text": "Business Interpretation\nFraud detection cannot rely only on demographic or financial variables.\nMore effective approaches should focus on:\n\nbehavioral indicators\nunusual transaction patterns\ndevice and login activity"
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#recommendations",
+    "href": "projects/fraud-analysis-project.html#recommendations",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Recommendations",
+    "text": "Recommendations\n\nFocus on behavioral fraud signals\nImprove data collection with richer features\nMonitor large financial outliers\nRetrain models regularly"
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#technical-stack",
+    "href": "projects/fraud-analysis-project.html#technical-stack",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Technical Stack",
+    "text": "Technical Stack\n\nPython\npandas, numpy\nmatplotlib, seaborn\nscikit-learn\nstatistical analysis"
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#technical-implementation-python",
+    "href": "projects/fraud-analysis-project.html#technical-implementation-python",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Technical Implementation (Python)",
+    "text": "Technical Implementation (Python)\nThe following code snippets demonstrate how data was loaded, processed, and analysed using Python, with a focus on reproducibility and real-world analytical workflows.\n\nData Loading\n\n\n\n\n\n\n\n\n\ntransaction_id\ncustomer_id\nage\ngender\neducation\nmarital_status\nregion\npersonal_income\nfamily_income\ncredit_score\n...\ntransaction_amount\ntransaction_type\ndevice_type\naccount_age_days\nnum_prev_transactions\navg_transaction_value\ninternet_usage_hrs\nmobile_usage_hrs\nis_fraud\nfraud_amount\n\n\n\n\n0\nT00001\nC9889\n57.5\nFemale\nPhD\nMarried\nEast\n59471.88\n89963.84\n430\n...\n14678.00\nOnline\nPOS\n574\n8\n3735.04\n3.4\n1.9\n0\n0.00\n\n\n1\nT00002\nC8368\n47.9\nFemale\nHigh School\nMarried\nSouth\n65603.22\n84225.79\n610\n...\n475.07\nIn-Store\nDesktop\n2431\n38\n1464.22\n3.0\n4.9\n1\n372.40\n\n\n2\nT00003\nC5818\n59.7\nMale\nMaster\nMarried\nSouth\n43807.93\n70351.92\n608\n...\n616.23\nIn-Store\nPOS\n4868\n114\n4067.04\n9.4\n4.9\n1\n610.56\n\n\n3\nT00004\nC1027\n72.8\nFemale\nHigh School\nMarried\nEast\n68481.22\n84617.72\n761\n...\n2174.51\nOnline\nATM\n2394\n56\n1135.61\n5.6\n9.0\n0\n0.00\n\n\n4\nT00005\nC5254\n46.5\nFemale\nBachelor\nWidowed\nNorth\n50523.21\n93876.19\n619\n...\n6730.62\nATM\nDesktop\n1319\n138\n5773.06\n1.9\n2.7\n1\n6571.32\n\n\n\n\n5 rows × 23 columns\n\n\n\n\n\nExploratory Data Analysis Example\n\n\n\n\n\nTransaction Amount by Fraud Class\n\n\n\n\nThe boxplot shows that fraud transactions have greater variability and more extreme values, but there is still substantial overlap with non-fraud cases. This suggests that transaction amount alone is not a strong predictor of fraud.\n\n\nPredictive Modeling Example\n\n\n\n\n\n\n\n\n\nMetric\nScore\n\n\n\n\n0\nAccuracy\n0.60\n\n\n1\nPrecision\n0.58\n\n\n2\nRecall\n0.69\n\n\n3\nROC-AUC\n0.66\n\n\n\n\n\n\n\nThe model achieved moderate performance, with stronger recall than precision. This indicates that the model was more effective at identifying fraud cases than avoiding false positives.\nIn a fraud detection context, higher recall is often preferred, as missing fraudulent transactions can lead to significant financial loss. However, the relatively low precision suggests that many flagged transactions may not actually be fraudulent, which could increase operational costs."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#business-impact",
+    "href": "projects/fraud-analysis-project.html#business-impact",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Business Impact",
+    "text": "Business Impact\nThese findings suggest that organizations should:\n\nshift from static rule-based systems to behavior-based detection\ninvest in richer transaction-level data\ncontinuously retrain models with updated patterns\n\nFor organizations, this means that investment in richer behavioural and transaction-level data is likely to deliver more value than relying only on static customer attributes."
+  },
+  {
+    "objectID": "projects/fraud-analysis-project.html#supporting-material",
+    "href": "projects/fraud-analysis-project.html#supporting-material",
+    "title": "Fraud Pattern Analysis and Predictive Modeling",
+    "section": "Supporting Material",
+    "text": "Supporting Material\nYou can explore the full analysis and presentation below:\n\nDownload Full Report (PDF)\nDownload Presentation (PPT)"
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html",
+    "href": "projects/nlp-sentiment-project.html",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "",
+    "text": "Objective: Compare BERT vs GPT for sentiment classification\n\nData: 800,000+ Glassdoor employee reviews\n\nTask: Classify sentiment (positive / neutral / negative)\n\nBusiness Value: Enable scalable employee feedback analysis\n\nThis project applies natural language processing (NLP) to transform large-scale unstructured employee reviews into actionable insights. It compares a fine-tuned transformer model (BERT) with a prompt-based generative AI approach (GPT)."
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#overview",
+    "href": "projects/nlp-sentiment-project.html#overview",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "",
+    "text": "Objective: Compare BERT vs GPT for sentiment classification\n\nData: 800,000+ Glassdoor employee reviews\n\nTask: Classify sentiment (positive / neutral / negative)\n\nBusiness Value: Enable scalable employee feedback analysis\n\nThis project applies natural language processing (NLP) to transform large-scale unstructured employee reviews into actionable insights. It compares a fine-tuned transformer model (BERT) with a prompt-based generative AI approach (GPT)."
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#key-result",
+    "href": "projects/nlp-sentiment-project.html#key-result",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Key Result",
+    "text": "Key Result\n\nBERT outperformed GPT across all evaluation metrics\n\nStrongest performance: Positive sentiment (F1 = 0.87)\n\nWeakest area: Neutral sentiment (both models struggled)\n\nGPT showed lower consistency in classification"
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#business-context",
+    "href": "projects/nlp-sentiment-project.html#business-context",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Business Context",
+    "text": "Business Context\nOrganizations receive large volumes of employee feedback, making manual analysis inefficient and inconsistent.\nAutomated sentiment analysis enables companies to:\n\nIdentify workplace issues at scale\n\nMonitor employee satisfaction trends\n\nSupport retention and HR decision-making\n\nThis project demonstrates how AI can convert unstructured text into meaningful business insights."
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#dataset",
+    "href": "projects/nlp-sentiment-project.html#dataset",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Dataset",
+    "text": "Dataset\nThe dataset consists of 800,000+ employee reviews, including:\n\nCompany name\n\nEmployee rating\n\nReview summary\n\nPros and cons\n\n\nData Preparation\n\nCombined text fields into a single review variable\n\nMapped ratings into sentiment categories\n\nSplit data into training and test sets (80/20)\n\nApplied preprocessing and tokenization"
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#methodology",
+    "href": "projects/nlp-sentiment-project.html#methodology",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Methodology",
+    "text": "Methodology\n\nModel 1: BERT (Fine-tuned)\n\nTransformer-based model\n\nUses bidirectional context\n\nSupervised learning approach\n\nOptimized for classification tasks\n\n\n\nModel 2: GPT (Prompt-based)\n\nZero-shot / few-shot prompting\n\nNo training required\n\nFlexible but less consistent\n\n\n\nModel Selection Rationale\nBERT was selected as the primary model due to its strong performance in supervised text classification tasks and its ability to capture contextual meaning using bidirectional representations.\nGPT was included as a comparison to evaluate the effectiveness of prompt-based approaches in classification tasks without model fine-tuning."
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#reported-results",
+    "href": "projects/nlp-sentiment-project.html#reported-results",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Reported Results",
+    "text": "Reported Results\n\n\n\nMetric\nBERT\nGPT\n\n\n\n\nAccuracy\n0.76\n0.53\n\n\nWeighted F1\n0.75\n0.55\n\n\nNegative F1\n0.71\n0.57\n\n\nNeutral F1\n0.48\n0.29\n\n\nPositive F1\n0.87\n0.64"
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#interpretation",
+    "href": "projects/nlp-sentiment-project.html#interpretation",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Interpretation",
+    "text": "Interpretation\nBERT consistently outperformed GPT across all metrics.\n\nStrongest improvement: Positive sentiment classification\n\nBoth models struggled with neutral sentiment, indicating ambiguity in labels\n\nGPT showed weaker and less stable predictions\n\nKey takeaway:\nFine-tuned models are significantly more reliable than prompt-based approaches for structured classification tasks."
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#performance-comparison",
+    "href": "projects/nlp-sentiment-project.html#performance-comparison",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Performance Comparison",
+    "text": "Performance Comparison\nThe chart below compares model performance across key evaluation metrics:\n\n\n\n\n\nBERT vs GPT Performance Comparison\n\n\n\n\nBERT shows consistently higher performance across all evaluation metrics, with the largest gap in positive sentiment classification."
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#confusion-matrix-insights",
+    "href": "projects/nlp-sentiment-project.html#confusion-matrix-insights",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Confusion Matrix Insights",
+    "text": "Confusion Matrix Insights\n\nBERT performed strongest on positive sentiment, with high correct classification rates\n\nNeutral sentiment was frequently misclassified as positive\n\nGPT showed higher confusion across all classes\n\nClass separation was weaker in GPT predictions\n\nThis highlights the importance of model training and task-specific optimization."
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#limitations",
+    "href": "projects/nlp-sentiment-project.html#limitations",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Limitations",
+    "text": "Limitations\nThe performance of both models is influenced by the quality and structure of the dataset. Neutral sentiment was particularly difficult to classify, likely due to ambiguity in labeling.\nAdditionally, GPT performance depends heavily on prompt design, which introduces variability and reduces consistency compared to supervised approaches."
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#ethical-considerations",
+    "href": "projects/nlp-sentiment-project.html#ethical-considerations",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Ethical Considerations",
+    "text": "Ethical Considerations\n\nPotential bias in employee review data\n\nLimited transparency in model decisions\n\nData privacy and governance concerns\n\nNeed for human oversight in AI-driven insights"
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#business-impact",
+    "href": "projects/nlp-sentiment-project.html#business-impact",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Business Impact",
+    "text": "Business Impact\n\nEnables scalable analysis of employee feedback\n\nSupports data-driven HR decision-making\n\nIdentifies sentiment trends across organizations\n\nReduces manual analysis effort"
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#key-learning",
+    "href": "projects/nlp-sentiment-project.html#key-learning",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Key Learning",
+    "text": "Key Learning\n\nFine-tuned models outperform prompt-based approaches in structured tasks\n\nData quality and labeling strongly impact performance\n\nGenerative AI is flexible but less reliable without constraints"
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#technical-stack",
+    "href": "projects/nlp-sentiment-project.html#technical-stack",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Technical Stack",
+    "text": "Technical Stack\n\nPython\n\npandas, numpy\n\nHugging Face Transformers (BERT)\n\nTokenization (WordPiece)\n\nMachine Learning & Deep Learning"
+  },
+  {
+    "objectID": "projects/nlp-sentiment-project.html#supporting-material",
+    "href": "projects/nlp-sentiment-project.html#supporting-material",
+    "title": "NLP Sentiment Analysis – BERT vs Generative AI",
+    "section": "Supporting Material",
+    "text": "Supporting Material\n\nFull Report"
+  }
+]
